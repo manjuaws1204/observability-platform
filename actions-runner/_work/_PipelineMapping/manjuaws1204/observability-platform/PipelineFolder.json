@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "manjuaws1204/observability-platform",
+  "pipelineDirectory": "observability-platform",
+  "workspaceDirectory": "observability-platform\\observability-platform",
+  "repositories": {
+    "manjuaws1204/observability-platform": {
+      "repositoryPath": "observability-platform\\observability-platform",
+      "lastRunOn": "08/01/2026 21:12:28 +05:30"
+    }
+  },
+  "lastRunOn": "08/01/2026 21:12:28 +05:30"
+}
