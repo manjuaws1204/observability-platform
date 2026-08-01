@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "MANJU",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus4.actions.githubusercontent.com/rELeU2sphfas8FzBe7LAafPc8yHfvrFSDCsp0gwkRY8HUooZ4G/",
+  "gitHubUrl": "https://github.com/manjuaws1204/observability-platform",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
