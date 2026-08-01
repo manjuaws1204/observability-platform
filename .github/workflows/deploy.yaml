@@ -6,21 +6,21 @@ on:
       - main
 
 jobs:
-  test-runner:
+  validate:
+
     runs-on: self-hosted
 
     steps:
+
       - uses: actions/checkout@v4
 
-      - name: Runner Information
+      - name: Verify Runner
         shell: powershell
         run: |
-          Write-Host "Runner is working"
-
-          kubectl version --client
-
           kubectl get nodes
-
           kubectl get ns
 
-          git --version
+      - name: Validate Kubernetes Manifests
+        shell: powershell
+        run: |
+          .\scripts\validate.ps1
